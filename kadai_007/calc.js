@@ -1,4 +1,4 @@
-num = Math.floor(Math.random() * 100);
+num = Math.floor(Math.random() * 100)+1;
 console.log(num);
 num3=num % 3 == 0
 num5=num % 5 == 0
