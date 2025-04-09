@@ -1,6 +1,7 @@
-const date = new Date();
-console.log(date.toLocaleDateString('ja-JP', {
-    year: 'numeric', 
-    month: 'long', 
-    day: 'numeric', 
-}));
+const today = new Date();
+const year = today.getFullYear();
+const month = today.getMonth() + 1;
+const date = today.getDate();
+
+console.log(year + "年"+ month +"月"+ date +"日");
+
